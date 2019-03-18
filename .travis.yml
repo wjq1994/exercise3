@@ -5,9 +5,9 @@ notifications:      # 每次构建的时候是否通知，如果不想收到通�
   email: false
 addons:
   chrome: stable
-before_script:
-  - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
+#before_script:
+#  - export DISPLAY=:99.0
+#  - sh -e /etc/init.d/xvfb start
 # 执行install
 install:
  - npm install
